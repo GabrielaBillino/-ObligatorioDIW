@@ -18,8 +18,8 @@ footer section{
    
 }
 
-footer img{
-    width: 50px;
+footer img{    
+	height: 50px;
 	padding: 20px;
 }
 
@@ -206,7 +206,6 @@ i, cite{
     overflow:hidden;
     width: auto;
     text-align: left;
-
 } 
 
 #actores article:nth-of-type(1){
@@ -259,8 +258,7 @@ i, cite{
     background-image: url(img/fondoPelicula.jpg);  
     background-size: cover;
     width: 100%;    
-    color: whitesmoke;     
-	
+    color: whitesmoke;     	
 	background-attachment: fixed;
     background-position: center;
 }
@@ -270,13 +268,15 @@ i, cite{
 }
 
 #infoTecnicaContacto article{    
-    width: calc(100%/2 - 40px); 
+    width: calc(100%/2 - 20px); 
 	gap: 20px;
 }
 
 table{
     margin-right: 20px;   
-    background-color: #f5cd9e;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover; 
+    box-shadow: -5px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 td img{
@@ -284,7 +284,7 @@ td img{
 }
 
 tr:nth-child(2n){
-    background-color: #f4a36a;
+    background-color: rgba(244, 163, 106, 0.5);
 }
 
 td p:nth-child(2){    
@@ -298,17 +298,15 @@ td p:nth-child(2){
     gap: 20px;
     margin: 10px 0;  
     padding: 30px;   
-    background-color: #f5cd9e;
+	background-color: rgba(0, 0, 0, 0.5);
     background-size: cover; 
-       
+    box-shadow: -5px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 fieldset{
     width: calc(100% - 30px);
     border: none;
 }
-
-
 
 input:focus, select:focus, textarea:focus {
     outline: none;
@@ -329,7 +327,7 @@ input:valid {
 
 input, select{    
     height: 30px;
-    margin-bottom: 10px;      
+    margin-bottom: 10px;	
 } 
 
 select{
@@ -338,7 +336,8 @@ select{
 
 textarea{
     resize: none;
-    width: 100%;   
+    width: 100%;
+	background-color: rgba(244, 163, 106, 0.5);
 }
 
 #txtNombre{
